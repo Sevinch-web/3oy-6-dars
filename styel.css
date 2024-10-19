@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main_list{
+    background-color: #F3D7B7;
+    width: 1540px;
+    height: 750px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+   
+    list-style: none;
+   
+}
+li a{
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.surname{
+    width: 464px;
+    height: 367px;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    line-height: 75px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    line-height: 24px;
+}
+button{
+    background-color: #0A775F;
+    width: 193px;
+    height: 51px;
+    border-radius: 100px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-top: 40px;
+}
+
+.bac{
+    position: relative;
+    bottom: -178px;
+
+}
+
+
+.logo{
+    position: absolute ;
+    top: 140px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 1117.09px;
+    height: 1500px;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+h3{
+    font-size: 48px;
+    font-weight: 500px;
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-top:200px;
+    margin-left: 650px;
+}
+.box{
+    /* width: ; */
+}
+
+.logo{
+   
+   transition: 1s;
+   animation: box 3s infinite;
+   
+}
+.logo:hover{
+    
+    transform: rotate(360deg) scale(1.5);
+}
+.head_info{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 40px;
+    margin-top: 18px;
+}
+.head_info a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+footer{
+    background-color: #F3D7B7;
+    height: 100px;
+    margin-top: 360px;
+}

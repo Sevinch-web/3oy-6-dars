@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.sabohat{
+    background-color: #F3D7B7;
+    width: 1540px;
+    height: 750px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+   
+    list-style: none;
+   
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+li a{
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.main_list{
+    background-color: #F3D7B7;
+    width: 1440px;
+    height:720px ;
+}
+.surname{
+    width: 464px;
+    height: 367px;
+   
+}
+.logo{
+   
+    transition: 1s;
+    animation: box 3s infinite;
+    position: absolute ;
+    top: 140px;
+ }
+ .bac{
+    margin-top: 150px; 
+
+
+ }
+ 
+ p{
+    font-size: 16px;
+    font-weight: 400px;
+ }
+ .logo:hover{
+    
+    transform: rotate(360deg) scale(1.5);
+}
+.rigt{
+    width: 580px;
+}
+.rigt h2{
+    font-family: "roboto" sans-serif;
+    margin-bottom: 30px;
+    
+}
+.rigt p{
+    font-family: "roboto" sans-serif;
+    line-height: 25px;
+}
+section{
+    height: 400px;
+    background-color: #c99b67;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: "roboto" sans-serif;
+}
+.section-info h2{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.section-info p{
+    width: 580px;
+    line-height: 25px;
+}
+.section_img img{
+    position: relative;
+    bottom: 110px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    margin-bottom: 100px;
+}
+.header_wrap{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 40px;
+    margin-top: 18px;
+}
